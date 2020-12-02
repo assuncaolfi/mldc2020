@@ -27,7 +27,9 @@ _This section is a bit superficial. As of now, you can understand the model
 better through the `infer` function in the `functions/infer.R` script._
 
 The model was made from scratch, without any common recsys or classification 
-algorithms. It's roughly described by the pseudocode below:
+algorithms. It's basically a weighted average followed by some sorting rules, 
+and inference is very fast (and it could easily be faster with parallelization). 
+The model roughly described by the pseudocode below:
 
 ```
 for each user history do:
