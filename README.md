@@ -34,16 +34,16 @@ The model roughly described by the pseudocode below:
 ```
 for each user history do:
   for each distinct item do:
-    frequency = normalized count of item views;
-    recency = normalized rank of items ordered by ascending date;
-    popularity = normalized count of item sales in other histories;
-    score = weighted mean of features;
+    item frequency = normalized count of item views;
+    item recency = normalized rank of items ordered by ascending date;
+    item popularity = normalized count of item sales in other histories;
+    item score = weighted mean of features;
   end
-  top_category = declare highest scoring item category;
+  top category = category of highest scoring item;
   relevant items = subset of items with at least one sale in other histories;
   recommendations = relevant items ranked by score;
-  if number of recommendations less than 10 do:
-    bind recommendations with top_category items ranked by number of sales in other histories;
+  if number of recommendations is less than 10 do:
+    recommendations = concatenate recommendations with top category items ranked by number of sales in other histories;
   end
   return recommendations
 end
