@@ -1,0 +1,8 @@
+data/item_data.jl
+data/item_data_item.csv
+data/submission.csv
+data/test_dataset.jl
+data/test_dataset_history.csv
+data/train_dataset.jl
+data/train_dataset_purchase.csv
+

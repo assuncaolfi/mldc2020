@@ -1,0 +1,2 @@
+Epoch,Iteration,frequency_weight,recency_weight,popularity_weight,cheapness_weight,activity_weight,gpUtility,acqOptimum,inBounds,Elapsed,Score,errorMessage
+28,40,0.333333333333333,0.5,0.166666666666667,0,0,0.0138140428540816,TRUE,TRUE,210.090000000004,0.297376371244751,
