@@ -52,6 +52,7 @@ item ids.
 
 ## Tune
 
+There are only three parameters: weights for the weighted mean of frequency, recency and popularity.
 By default, the `main.R` script fits the model with the parameters in `data/best_params.csv`. To tune them, first run:
 
 ```r
