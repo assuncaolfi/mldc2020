@@ -1,7 +1,7 @@
 # mldc2020
 
 Code to fit my [Mercado Libre Data Challenge](https://ml-challenge.mercadolibre.com/) 
-2020 submission.
+2020 submission (7th place).
 
 ## Run
 
